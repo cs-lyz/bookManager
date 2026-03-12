@@ -1,9 +1,9 @@
 package com.cs.dao;
-
 import lombok.Data;
 
 @Data
-public class Response {
+public class Result {
     String token;
-
+    String code;
+    Object data;
 }

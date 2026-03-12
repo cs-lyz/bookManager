@@ -25,6 +25,5 @@ public class MapperTest {
         // 调用 Mapper 方法
         user user = userMapper.selectAllByName("admin");
         System.out.println(user);
-
     }
 }
